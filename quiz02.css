@@ -1,0 +1,168 @@
+ /* Add some basic styling */
+
+
+/* visible invisible part */
+
+body {
+    /* background-color: aqua; */
+    /* text-align: center; */
+    /* max-width: 960px; */
+     margin-left: 80px;
+     margin-top: 40px ;
+
+}
+
+/* results part */
+
+.doneButton {
+    display: block;
+}
+
+
+.result {
+    height: fit-content;
+    max-width: 850px;
+    padding: 20px;
+    margin-top: 30px;
+
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0px 0px 5px 2px rgb(237, 239, 246);
+    display: none;
+}
+
+.score {
+    display: inline-block;
+    min-width: 250px;
+    padding: 20px;
+    margin-top: 30px;
+    height:fit-content ;
+    margin: 10px;
+
+    font-size: 24px;
+
+    color: rgb(87, 174, 118);
+    border-radius: 10px;
+    /* background-color: rgb(162, 74, 74); */
+    box-shadow: 0px 0px 5px 2px rgb(237, 239, 246);
+}
+
+
+.message {
+    display: inline-block;
+    
+    width: 470px;
+    
+    padding: 20px;
+    margin-top: 30px;
+    margin: 10px;
+    font-size: 24px;
+
+    color: rgb(60, 60, 60);
+    border-radius: 10px;
+    /* background-color: rgb(162, 74, 74); */
+    box-shadow: 0px 0px 5px 2px rgb(237, 239, 246);
+}
+
+
+
+/* question answer part */
+
+ .mainQuestion {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Tahoma';
+ }
+ 
+ .question {
+    margin-bottom: 30px;
+    max-width: 850px;
+    height: fit-content;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0px 0px 5px 2px rgb(237, 239, 246);
+    padding: 10px;
+
+
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Tahoma';
+    /* background-color: rgb(241, 250, 230); */
+}
+
+/* Style for option boxes */
+.option {
+    display: inline-block;
+    /* width: 200px; */
+    width: fit-content;
+    min-height: 20px;
+    height: fit-content;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+    font-size: 14px;
+    font-weight: 50;
+    font-family: 'Tahoma';
+
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Shadow and border when option is selected */
+.option.selected {
+    border: 2px solid lightblue;
+    box-shadow: 0px 0px 5px 2px lightblue;
+    
+}
+
+/* Hover effect */
+
+.option:hover {
+    border-color: rgb(180, 245, 249);
+    box-shadow: 0px 0px 2px 1px rgb(213, 250, 255);
+}
+
+.option:active {
+    border-color: rgb(180, 245, 249);
+    box-shadow: 0px 0px 2px 1px rgb(213, 250, 255);
+}
+
+
+
+/* Sizes for option variations- small medium and large */
+.verySmall {
+    width: 120px;
+    text-align: center;
+}
+
+.small {
+    width: 200px;
+}
+
+.medium {
+    width: 400px;
+}
+
+.large {
+    width: 680px;
+}
+
+
+
+
+
+
+/* UnHide second section by default */
+/* #section2 {
+    display: none;
+} */
+
+#points1, #points2 {
+    display: block; /* Show points by default */
+}
