@@ -69,7 +69,7 @@
             let maxValue = 1000;
 
             let fScore = bonus + section1Total;
-            fScore = 780;
+            // fScore = 780;
             let pScore = fScore * 100/(maxValue-minValue);
             
 
